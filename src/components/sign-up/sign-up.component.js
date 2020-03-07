@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { connect } from 'react-redux';
 
 import FormInput from '../form-input/form-input.component';
@@ -73,7 +72,6 @@ const SignUp = ({ signUpStart }) => {
     </div>
   )
 }
-
 
 const mapDispatchToProps = dispatch => ({
   signUpStart: userCredentials => dispatch(signUpStart(userCredentials))
